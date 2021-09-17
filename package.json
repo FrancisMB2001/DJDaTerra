@@ -1,0 +1,32 @@
+{
+  "name": "musicbot",
+  "version": "1.0.0",
+  "description": "Bot de musica pessoal",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancisMB2001/DJDaTerra.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "music",
+    "personal"
+  ],
+  "author": "Francisco Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancisMB2001/DJDaTerra/issues"
+  },
+  "homepage": "https://github.com/FrancisMB2001/DJDaTerra#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.9.1"
+  }
+}
